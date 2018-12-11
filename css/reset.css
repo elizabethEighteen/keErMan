@@ -9,7 +9,8 @@ p,
 ul,
 h1,
 h3,
-img {
+img,
+li {
   padding: 0;
   margin: 0;
 }
