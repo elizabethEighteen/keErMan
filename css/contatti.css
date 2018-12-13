@@ -1,3 +1,43 @@
+body {
+  margin: 0;
+}
+body,
+html {
+  font-family: "Avenir", "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+p,
+ul,
+h1,
+h2,
+h3,
+img,
+li,
+table {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+  background: none;
+  border: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 header {
   width: 100%;
   height: 120px;
@@ -296,4 +336,40 @@ footer .bottom .ul1 li a {
   top: 30px;
   right: 30px;
   cursor: pointer;
+}
+body {
+  margin-top: 120px;
+  background-color: #F1F2ED;
+}
+#nav {
+  width: 100%;
+  height: 60px;
+  background-color: #F1F2ED;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+#nav p {
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #000;
+}
+#nav p a {
+  color: #000;
+}
+#contennt {
+  width: 100%;
+  min-height: 650px;
+}
+#contennt .wrap {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+#sure {
+  width: 100%;
+}
+#sure .wrap {
+  max-width: 1400px;
+  margin: 0 auto;
 }

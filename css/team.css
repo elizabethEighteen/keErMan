@@ -1,3 +1,42 @@
+body {
+  margin: 0;
+}
+body,
+html {
+  font-family: "Avenir", "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+p,
+ul,
+h1,
+h2,
+h3,
+img,
+li {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+input {
+  outline: none;
+  background: none;
+  border: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clearfix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
 header {
   width: 100%;
   height: 120px;
@@ -296,4 +335,97 @@ footer .bottom .ul1 li a {
   top: 30px;
   right: 30px;
   cursor: pointer;
+}
+body {
+  margin-top: 120px;
+}
+#nav {
+  width: 100%;
+  height: 60px;
+  background-color: #F1F2ED;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+#nav p {
+  width: 500px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 12px;
+  color: #000;
+}
+#nav p a {
+  color: #000;
+}
+#contennt {
+  width: 100%;
+  background-color: #F1F2ED;
+}
+#contennt .leftNav {
+  width: 226px;
+  padding-left: 50px;
+}
+#contennt .leftNav .title {
+  width: 200px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 13px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 30px;
+}
+#contennt .leftNav ul {
+  width: 194px;
+}
+#contennt .leftNav ul li {
+  height: 42px;
+}
+#contennt .leftNav ul li a {
+  height: 42px;
+  line-height: 42px;
+  font-size: 16px;
+  color: #000;
+}
+#contennt .rightSection {
+  width: calc(100% - 306px);
+  margin-bottom: 60px;
+}
+#contennt .rightSection ul {
+  width: 90%;
+}
+#contennt .rightSection ul li {
+  float: left;
+  width: calc(25% - 10px);
+  box-sizing: border-box;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(0, 0, 0, 0.05);
+  position: relative;
+  cursor: pointer;
+}
+#contennt .rightSection ul li:hover .blackBg {
+  display: block;
+}
+#contennt .rightSection ul li img {
+  width: 100%;
+}
+#contennt .rightSection ul li .blackBg {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#contennt .rightSection ul li .blackBg p {
+  width: 80%;
+  padding: 0 10%;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  line-height: 1.2em;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
