@@ -11,7 +11,8 @@ h1,
 h2,
 h3,
 img,
-li {
+li,
+table {
   padding: 0;
   margin: 0;
 }
@@ -377,11 +378,11 @@ body {
   width: 194px;
 }
 #contennt .leftNav ul li {
-  height: 42px;
+  height: 30px;
 }
 #contennt .leftNav ul li a {
-  height: 42px;
-  line-height: 42px;
+  height: 30px;
+  line-height: 30px;
   font-size: 16px;
   color: #000;
 }

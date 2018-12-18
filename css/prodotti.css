@@ -11,7 +11,8 @@ h1,
 h2,
 h3,
 img,
-li {
+li,
+table {
   padding: 0;
   margin: 0;
 }
@@ -377,13 +378,23 @@ body {
   width: 194px;
 }
 #contennt .leftNav ul li {
-  height: 42px;
+  height: 36px;
 }
 #contennt .leftNav ul li a {
-  height: 42px;
-  line-height: 42px;
+  display: block;
+  height: 36px;
+  line-height: 36px;
   font-size: 16px;
   color: #000;
+  padding-left: 30px;
+  background: url(../img/dot.png) no-repeat;
+  background-size: 12px 12px;
+  background-position: 0 center;
+}
+#contennt .leftNav ul li.active a {
+  background: url(../img/dotChecked.png) no-repeat;
+  background-size: 12px 12px;
+  background-position: 0 center;
 }
 #contennt .right {
   width: calc(100% - 306px);
@@ -410,6 +421,9 @@ body {
   padding-right: 10px;
   margin-bottom: 30px;
 }
+#contennt .right .wrap ul li:hover .lineH {
+  background-color: #000;
+}
 #contennt .right .wrap ul li img {
   width: 100%;
   margin-bottom: 5px;
@@ -419,9 +433,6 @@ body {
   height: 3px;
   background-color: #F1F2ED;
   margin-bottom: 5px;
-}
-#contennt .right .wrap ul li .lineH.active {
-  background-color: #000;
 }
 #contennt .right .wrap ul li .brand {
   width: 100%;

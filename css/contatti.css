@@ -358,13 +358,161 @@ body {
 #nav p a {
   color: #000;
 }
-#contennt {
+#content {
   width: 100%;
   min-height: 650px;
 }
-#contennt .wrap {
+#content .wrap {
   max-width: 1400px;
   margin: 0 auto;
+}
+#content .wrap .leftSection {
+  width: 45%;
+  padding-left: 2%;
+}
+#content .wrap .leftSection h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+  font-family: "Optima";
+}
+#content .wrap .leftSection .input {
+  width: 100%;
+}
+#content .wrap .leftSection .input .title {
+  width: 100%;
+  height: 14px;
+  line-height: 14px;
+  font-size: 14px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  color: #000;
+}
+#content .wrap .leftSection .input input {
+  width: 100%;
+  height: 40px;
+  background-color: #E0E0E0;
+  line-height: 40px;
+  font-size: 14px;
+  text-indent: 1em;
+}
+#content .wrap .leftSection .input .warning {
+  width: calc(100 - 10px);
+  height: 16px;
+  padding: 5px;
+  background-color: #d28c8c;
+  text-indent: 1em;
+  line-height: 16px;
+  font-size: 12px;
+}
+#content .wrap .leftSection .input textarea {
+  width: 100%;
+  line-height: 1.2em;
+  font-size: 12px;
+  background-color: #E0E0E0;
+  padding: 5px;
+  box-sizing: border-box;
+  outline: none;
+  resize: none;
+  margin-bottom: -3px;
+}
+#content .wrap .leftSection .check {
+  width: 100%;
+}
+#content .wrap .leftSection .check .title {
+  line-height: 20px;
+  font-size: 14px;
+  margin: 10px 0;
+}
+#content .wrap .leftSection .check .yes {
+  width: 20px;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 25px;
+  background: url(../img/dot.png) no-repeat;
+  background-size: 16px 16px;
+  margin-right: 20px;
+  font-size: 16px;
+}
+#content .wrap .leftSection .check .no {
+  width: 20px;
+  height: 16px;
+  line-height: 16px;
+  padding-left: 25px;
+  background: url(../img/dotChecked.png) no-repeat;
+  background-size: 16px 16px;
+  font-size: 16px;
+}
+#content .wrap .leftSection .selector {
+  width: 100%;
+  height: 40px;
+  margin: 20px 0;
+  background-color: #E0E0E0;
+  outline: none;
+}
+#content .wrap .leftSection .accept {
+  width: 100%;
+}
+#content .wrap .leftSection .accept .title {
+  width: calc(100% - 230px);
+  padding-left: 25px;
+  line-height: 20px;
+  font-size: 14px;
+  box-sizing: border-box;
+  background: url(../img/dot.png) no-repeat;
+  background-size: 16px 16px;
+  background-position: 0 2px;
+}
+#content .wrap .leftSection .accept .btn {
+  width: 180px;
+  height: 50px;
+  background-color: #000;
+  color: #fff;
+  line-height: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+#content .wrap .leftSection .author {
+  width: 100%;
+  height: 20px;
+  line-height: 20px;
+  font-size: 14px;
+  margin: 20px 0 50px;
+}
+#content .wrap .rightSection {
+  width: 45%;
+  padding-right: 2%;
+  padding-top: 20px;
+}
+#content .wrap .rightSection h3 {
+  width: 100%;
+  margin: 50px 0 30px;
+  height: 22px;
+  line-height: 22px;
+  font-size: 22px;
+  font-weight: 600;
+}
+#content .wrap .rightSection .wrapRight {
+  width: 100%;
+  column-count: 2;
+  column-gap: 40px;
+}
+#content .wrap .rightSection .wrapRight .item {
+  padding-left: 30px;
+  background: url(../img/icon__location1.png) no-repeat;
+  background-size: 19px 24px;
+  margin-bottom: 30px;
+}
+#content .wrap .rightSection .wrapRight .item p {
+  line-height: 1.2em;
+  font-size: 13px;
+}
+#content .wrap .rightSection .bot {
+  width: 100%;
+}
+#content .wrap .rightSection .bot p {
+  width: 80%;
+  line-height: 1.2em;
+  font-size: 13px;
 }
 #sure {
   width: 100%;

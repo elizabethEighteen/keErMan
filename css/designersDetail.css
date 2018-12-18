@@ -339,7 +339,6 @@ footer .bottom .ul1 li a {
 }
 body {
   margin-top: 120px;
-  background-color: #F1F2ED;
 }
 #nav {
   width: 100%;
@@ -359,110 +358,127 @@ body {
   color: #000;
 }
 #contennt {
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100%;
   background-color: #F1F2ED;
-  padding: 0 30px;
-  min-height: calc(100vh - 400px);
 }
-#contennt .leftNav {
-  width: 360px;
-}
-#contennt .leftNav .title {
-  width: 360px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 28px;
-  font-weight: bold;
-  color: #000;
-  margin-bottom: 15px;
-}
-#contennt .leftNav .detail {
-  width: 360px;
-  line-height: 20px;
-  font-size: 14px;
-  margin-bottom: 30px;
-}
-#contennt .leftNav ul {
-  width: 360px;
-}
-#contennt .leftNav ul li {
-  width: 360px;
-  height: 43px;
-  border-bottom: 1px solid #ccc;
-  cursor: pointer;
+#contennt .moreDesigners {
+  width: 96%;
+  margin: 0 auto;
+  height: 35px;
+  background-color: #EAEBE9;
   position: relative;
 }
-#contennt .leftNav ul li:nth-of-type(6) {
-  border-bottom: none;
+#contennt .moreDesigners p {
+  line-height: 35px;
+  font-size: 16px;
+  text-indent: 2em;
 }
-#contennt .leftNav ul li a {
-  line-height: 43px;
-  font-size: 14px;
-  color: #000;
-}
-#contennt .leftNav ul li span {
-  display: block;
-  width: 15px;
-  height: 7px;
-  background: url(../img/rightArrow.png) no-repeat;
-  background-size: 15px 7px;
+#contennt .moreDesigners ul {
+  display: none;
+  width: 100%;
   position: absolute;
-  top: 18px;
-  right: 5px;
+  top: 0;
+  left: 0;
+  background-color: #EAEBE9;
 }
-#contennt .rightSection {
-  width: 400px;
-  padding: 50px 0 0 50px;
-}
-#contennt .rightSection ul {
+#contennt .moreDesigners ul li {
   width: 100%;
+  height: 35px;
+  line-height: 35px;
+  text-indent: 2em;
 }
-#contennt .rightSection ul li {
-  width: 90%;
-  height: 70px;
-  margin-bottom: 5px;
+#contennt .moreDesigners span {
+  width: 16px;
+  height: 16px;
+  background: url(../img/icon_currentdisplay.png) no-repeat;
+  background-size: 16px 2px;
+  background-position: 0 center;
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  z-index: 100;
 }
-#contennt .rightSection ul li .title {
+#contennt .moreDesigners span.active {
+  background: url(../img/icon_moredesigers.png) no-repeat;
+  background-size: 16px 16px;
+  background-position: 0 0;
+}
+#contennt .introduce {
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+#contennt .introduce img {
+  width: 20%;
+  float: left;
+}
+#contennt .introduce .wrap {
+  width: 76%;
+  float: right;
+}
+#contennt .introduce .wrap .title {
   width: 100%;
-  height: 30px;
-  line-height: 30px;
+  height: 36px;
+  margin: 20px 0;
+}
+#contennt .introduce .wrap .title a {
+  float: left;
+  width: 16px;
+  height: 36px;
+  background: url(../img/icon_back.png) no-repeat;
+  background-size: 16px 24px;
+  background-position: 0 center;
+}
+#contennt .introduce .wrap .title .name {
+  line-height: 36px;
+  font-size: 26px;
+  float: left;
+  margin-left: 10px;
+  font-family: "Optima";
+}
+#contennt .introduce .wrap .introduceDetail {
+  line-height: 1.6em;
   font-size: 14px;
-  color: #000;
 }
-#contennt .rightSection ul li .detail {
+#contennt .production {
+  width: 96%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+#contennt .production .title {
   width: 100%;
-  height: 40px;
-  font-size: 14px;
-  color: #000;
-  text-indent: 1em;
-  background-color: #E0E0E0;
-}
-#contennt .rightSection .checked {
-  width: 60%;
-  height: 12px;
-  line-height: 12px;
-  color: #000;
-  padding-left: 20px;
-  background: url(../img/dot.png) no-repeat;
-  background-size: 12px 12px;
-  margin: 30px 0;
-}
-#contennt .rightSection .checked.active {
-  background: url(../img/dotChecked.png) no-repeat;
-  background-size: 12px 12px;
-}
-#contennt .rightSection .btn {
-  width: 180px;
-  height: 50px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  color: #fff;
-  line-height: 48px;
+  line-height: 18px;
+  font-size: 18px;
   text-align: center;
+  margin: 50px 0;
+}
+#contennt .production ul {
+  width: 90%;
+}
+#contennt .production ul li {
+  float: left;
+  width: 22%;
+  margin-right: 3%;
+  margin-bottom: 30px;
+}
+#contennt .production ul li:hover .lineH {
   background-color: #000;
 }
-#contennt .rightSection .btn:hover {
-  background-color: white;
-  color: #000;
+#contennt .production ul li img {
+  width: 100%;
+  margin-bottom: 3px;
+}
+#contennt .production ul li .lineH {
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+}
+#contennt .production ul li .root {
+  width: 100%;
+  line-height: 16px;
+  height: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  text-indent: 1em;
+  margin: 15px 0;
 }

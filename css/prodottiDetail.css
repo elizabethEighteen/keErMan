@@ -339,7 +339,6 @@ footer .bottom .ul1 li a {
 }
 body {
   margin-top: 120px;
-  background-color: #F1F2ED;
 }
 #nav {
   width: 100%;
@@ -359,110 +358,102 @@ body {
   color: #000;
 }
 #contennt {
-  max-width: 1400px;
-  margin: 0 auto;
+  width: 100%;
   background-color: #F1F2ED;
-  padding: 0 30px;
-  min-height: calc(100vh - 400px);
+  padding-bottom: 50px;
 }
-#contennt .leftNav {
-  width: 360px;
-}
-#contennt .leftNav .title {
-  width: 360px;
-  height: 40px;
-  line-height: 40px;
-  font-size: 28px;
-  font-weight: bold;
-  color: #000;
-  margin-bottom: 15px;
-}
-#contennt .leftNav .detail {
-  width: 360px;
-  line-height: 20px;
-  font-size: 14px;
-  margin-bottom: 30px;
-}
-#contennt .leftNav ul {
-  width: 360px;
-}
-#contennt .leftNav ul li {
-  width: 360px;
-  height: 43px;
-  border-bottom: 1px solid #ccc;
-  cursor: pointer;
+#contennt .banner {
+  width: 96%;
+  margin: 0 auto;
   position: relative;
 }
-#contennt .leftNav ul li:nth-of-type(6) {
-  border-bottom: none;
+#contennt .banner .image {
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
 }
-#contennt .leftNav ul li a {
-  line-height: 43px;
-  font-size: 14px;
-  color: #000;
+#contennt .banner .image img {
+  width: 100%;
 }
-#contennt .leftNav ul li span {
-  display: block;
-  width: 15px;
-  height: 7px;
-  background: url(../img/rightArrow.png) no-repeat;
-  background-size: 15px 7px;
+#contennt .banner .leftArrow {
+  width: 17px;
+  height: 56px;
+  background: url(../img/icon_slide_left.png) no-repeat;
+  background-size: 17px 56px;
   position: absolute;
-  top: 18px;
-  right: 5px;
+  top: 50%;
+  left: 2%;
+  transform: translateY(-50%);
 }
-#contennt .rightSection {
-  width: 400px;
-  padding: 50px 0 0 50px;
+#contennt .banner .rightArrow {
+  width: 17px;
+  height: 56px;
+  background: url(../img/icon_slide_right.png) no-repeat;
+  background-size: 17px 56px;
+  position: absolute;
+  top: 50%;
+  right: 2%;
+  transform: translateY(-50%);
 }
-#contennt .rightSection ul {
+#contennt .extendImage {
+  width: 60px;
+  height: 24px;
+  margin: 20px auto;
+}
+#contennt .extendImage .btn1 {
+  width: 24px;
+  height: 24px;
+  background: url(../img/icon_details_more.png) no-repeat;
+  background-size: 24px 24px;
+  float: left;
+}
+#contennt .extendImage .btn2 {
+  width: 24px;
+  height: 24px;
+  background: url(../img/icon_maxscreen.png) no-repeat;
+  background-size: 24px 24px;
+  float: right;
+}
+#contennt .bot {
+  width: 96%;
+  margin: 0 auto;
+}
+#contennt .bot h2 {
   width: 100%;
+  line-height: 50px;
+  font-size: 50px;
 }
-#contennt .rightSection ul li {
-  width: 90%;
-  height: 70px;
-  margin-bottom: 5px;
-}
-#contennt .rightSection ul li .title {
+#contennt .bot .time {
   width: 100%;
+  line-height: 20px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+#contennt .bot .detail {
+  width: 100%;
+  line-height: 1.6em;
+  font-size: 14px;
+}
+#contennt .bot .btns {
+  width: 100%;
+  margin-top: 20px;
+}
+#contennt .bot .btns .btn1 {
+  width: 34px;
   height: 30px;
-  line-height: 30px;
-  font-size: 14px;
-  color: #000;
+  float: left;
+  background: url(../img/icon_wish1.png) no-repeat;
+  background-size: 34px 30px;
+  margin-right: 10px;
 }
-#contennt .rightSection ul li .detail {
-  width: 100%;
-  height: 40px;
-  font-size: 14px;
-  color: #000;
-  text-indent: 1em;
-  background-color: #E0E0E0;
+#contennt .bot .btns .btn1.active {
+  background: url(../img/icon_wish2.png) no-repeat;
+  background-size: 34px 30px;
 }
-#contennt .rightSection .checked {
-  width: 60%;
-  height: 12px;
-  line-height: 12px;
-  color: #000;
-  padding-left: 20px;
-  background: url(../img/dot.png) no-repeat;
-  background-size: 12px 12px;
-  margin: 30px 0;
-}
-#contennt .rightSection .checked.active {
-  background: url(../img/dotChecked.png) no-repeat;
-  background-size: 12px 12px;
-}
-#contennt .rightSection .btn {
-  width: 180px;
-  height: 50px;
-  border: 1px solid #000;
-  box-sizing: border-box;
-  color: #fff;
-  line-height: 48px;
-  text-align: center;
-  background-color: #000;
-}
-#contennt .rightSection .btn:hover {
-  background-color: white;
-  color: #000;
+#contennt .bot .btns .btn2 {
+  width: 34px;
+  height: 30px;
+  float: left;
+  background: url(../img/icon_location.png) no-repeat;
+  background-size: 34px 30px;
 }

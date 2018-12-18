@@ -403,7 +403,7 @@ body {
   color: #000;
   margin-bottom: 5px;
 }
-#contennt .leftNav .btn {
+#contennt .leftNav select {
   width: 200px;
   height: 40px;
   line-height: 40px;
@@ -413,16 +413,7 @@ body {
   text-indent: 1em;
   background-color: #E6E6E6;
   position: relative;
-}
-#contennt .leftNav .btn span {
-  display: block;
-  width: 20px;
-  height: 13px;
-  background: url(../img/icon_xlmore.png) no-repeat;
-  background-size: 20px 13px;
-  position: absolute;
-  top: 13px;
-  right: 13px;
+  outline: none;
 }
 #contennt .rightSection {
   width: calc(100% - 346px);

@@ -1,0 +1,211 @@
+@import "./reset.less";
+@import "./common.less";
+
+body {
+	margin-top: 120px;
+	background-color: #F1F2ED;
+}
+
+#nav {
+	width: 100%;
+	height: 60px;
+	background-color: #F1F2ED;
+	padding-top: 10px;
+	padding-left: 50px;
+	p {
+		width: 500px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+		color: #000;
+		a {
+			color: #000;
+		}
+	}
+}
+#contennt {
+	max-width: 1400px;
+	margin: 0 auto;
+	background-color: #F1F2ED;
+	padding: 0 30px;
+	min-height: calc(100vh - 400px);
+	// height: 500px;
+	.leftNav {
+		width: 360px;
+		// background-color: red;
+		.title{
+			width: 360px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 28px;
+			font-weight: bold;
+			color: #000;
+			margin-bottom: 15px;
+		}
+		.detail {
+			width: 360px;
+			line-height: 20px;
+			font-size: 14px;
+			margin-bottom: 30px;
+		}
+		ul {
+			width: 360px;
+			li {
+				width: 360px;
+				height: 43px;
+				border-bottom: 1px solid #ccc;
+				cursor: pointer;
+				position: relative;
+				&:nth-of-type(6) {
+					border-bottom: none;
+				}
+				a {
+					line-height: 43px;
+					font-size: 14px;
+					color: #000;
+				}
+				span {
+					display: block;
+					width: 15px;
+					height: 7px;
+					background: url(../img/rightArrow.png) no-repeat;
+					background-size: 15px 7px;
+					position: absolute;
+					top: 18px;
+					right: 5px;
+				}
+			}
+		}
+	}
+	.rightSection {
+		width: calc(100% - 470px);
+		padding: 50px 0 0 50px;
+		p {
+			width: 93%;
+			line-height: 1.4em;
+			font-size: 14px;
+			margin: 30px 0;
+		}
+		.nothing {
+			width: 93%;
+			width: 93%;
+			line-height: 1.4em;
+			font-size: 14px;
+			margin: 50px 0 30px;
+		}
+		.ul1 {
+			width: 90%;
+			// background-color: red;
+			li {
+				float: left;
+				width: 45%;
+				margin-right: 5%;
+				.title {
+					width: 100%;
+					height: 14px;
+					line-height: 14px;
+					font-size: 14px;
+					margin: 5px 0;
+				}
+				input {
+					width: 100%;
+					height: 40px;
+					background-color: #E0E0E0;
+				}
+				.warning {
+					width: 100%;
+					line-height: 26px;
+					font-size: 12px;
+					background-color: rgb(210, 140, 140);
+					margin-bottom: 5px;
+				}
+				select {
+					width: 100%;
+					height: 40px;
+					background-color: #E0E0E0;
+					outline: none;
+				}
+			}
+		}
+		.checkScript {
+			width: 50%;
+			line-height: 1.2em;
+			font-size: 14px;
+			margin-top: 50px;
+		}
+		.checkBtns {
+			margin: 20px 0;
+			.btn1,.btn2 {
+				float: left;
+				width: 20px;
+				height: 16px;
+				line-height: 16px;
+				padding-left: 24px;
+				background: url(../img/dot.png) no-repeat;
+				background-size: 14px 14px;
+				background-position: 0 center;
+				margin-right: 10px;
+				&.active {
+					background: url(../img/dotChecked.png) no-repeat;
+					background-size: 14px 14px;
+					background-position: 0 center;
+				}
+			}
+		}
+		.ul2 {
+			width: 90%;
+			// background-color: red;
+			li {
+				float: left;
+				width: 45%;
+				margin-right: 5%;
+				.title {
+					width: 100%;
+					height: 14px;
+					line-height: 14px;
+					font-size: 14px;
+					margin: 5px 0;
+				}
+				input {
+					width: 100%;
+					height: 40px;
+					background-color: #E0E0E0;
+				}
+				.warning {
+					width: 100%;
+					line-height: 26px;
+					font-size: 12px;
+					background-color: rgb(210, 140, 140);
+					margin-bottom: 5px;
+				}
+			}
+		}
+		.bot {
+			margin: 50px 0;
+			.accept {
+				width: calc(100% - 220px);
+				float: left;
+				line-height: 1.4em;
+				font-size: 14px;
+			}
+			.acceptWarning {
+				width: calc(100% - 220px);
+				float: left;
+				line-height: 1.4em;
+				font-size: 12px;
+				background-color: rgb(210, 140, 140);
+			}
+			.btn {
+				float: right;
+				width: 180px;
+				height: 50px;
+				background-color: #000;
+				color: #fff;
+				text-align: center;
+				line-height: 50px;
+				font-size: 16px;
+
+			}
+		}
+	}
+}

@@ -1,0 +1,154 @@
+@import "./reset.less";
+@import "./common.less";
+
+body {
+	margin-top: 120px;
+}
+
+#nav {
+	width: 100%;
+	height: 60px;
+	background-color: #F1F2ED;
+	padding-top: 10px;
+	padding-left: 50px;
+	p {
+		width: 500px;
+		height: 40px;
+		line-height: 40px;
+		font-size: 12px;
+		color: #000;
+		a {
+			color: #000;
+		}
+	}
+}
+#contennt {
+	width: 100%;
+	background-color: #F1F2ED;
+	// height: 500px;
+	.moreDesigners {
+		width: 96%;
+		margin: 0 auto;
+		height: 35px;
+		background-color: #EAEBE9;
+		position: relative;
+		p {
+			line-height: 35px;
+			font-size: 16px;
+			text-indent: 2em;
+		}
+		ul {
+			display: none;
+			width: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			background-color: #EAEBE9;
+			li {
+				width: 100%;
+				height: 35px;
+				line-height: 35px;
+				text-indent: 2em;
+			}
+		}
+		span {
+			width: 16px;
+			height: 16px;
+			background: url(../img/icon_currentdisplay.png) no-repeat;
+			background-size: 16px 2px;
+			background-position: 0 center;
+			position: absolute;
+			top: 5px; 
+			right: 20px;
+			z-index: 100;
+			&.active {
+				background: url(../img/icon_moredesigers.png) no-repeat;
+				background-size: 16px 16px;
+				background-position: 0 0;
+			}
+		}
+
+	}
+	.introduce {
+		width: 96%;
+		margin: 0 auto;
+		padding-top: 50px;
+		img {
+			width: 20%;
+			float: left;
+		}
+		.wrap {
+			width: 76%;
+			float: right;
+			.title {
+				width: 100%;
+				height: 36px;
+				margin: 20px 0;
+				a {
+					float: left;
+					width: 16px;
+					height: 36px;
+					background: url(../img/icon_back.png) no-repeat;
+					background-size: 16px 24px;
+					background-position: 0 center;
+				}
+				.name {
+					line-height: 36px;
+					font-size: 26px;
+					float: left;
+					margin-left: 10px;
+					font-family: "Optima";
+				}
+			}
+			.introduceDetail {
+				line-height: 1.6em;
+				font-size: 14px;
+			}
+		}
+	}
+	.production {
+		width: 96%;
+		margin: 0 auto;
+		padding-top: 10px;
+		.title {
+			width: 100%;
+			line-height: 18px;
+			font-size: 18px;
+			text-align: center;
+			margin: 50px 0;
+		}
+		ul {
+			width: 90%;
+			li {
+				float: left;
+				width: 22%;
+				margin-right: 3%;
+				margin-bottom: 30px;
+				&:hover {
+					.lineH {
+						background-color: #000;
+					}
+				}
+				img {
+					width: 100%;
+					margin-bottom: 3px;
+				}
+				.lineH {
+					width: 100%;
+					height: 3px;
+					background-color: #fff;
+
+				}
+				.root {
+					width: 100%;
+					line-height: 16px;
+					height: 16px;
+					font-size: 16px;
+					font-weight: bold;
+					text-indent: 1em;
+					margin: 15px 0;
+				}
+			}
+		}
+	}
+}
