@@ -1,0 +1,115 @@
+@import "./m-common.less";
+
+#nav {
+	width: 100%;
+	height: 50/@r;
+	padding-left: 20/@r;
+	box-sizing: border-box;
+	p {
+		height: 50/@r;
+		line-height: 50/@r;
+		font-size: 12/@r;
+		a {
+			height: 50/@r;
+			line-height: 50/@r;
+			font-size: 12/@r;
+			color: #000;
+		}
+	}
+}
+#contennt {
+	width: 90%;
+	margin-left: 5%;
+	padding-bottom: 50/@r;
+	.leftNav {
+		width: 100%;
+		.title {
+			width: 100%;
+			line-height: 24/@r;
+			font-size: 24/@r;
+			margin: 30/@r 0;
+		}
+		.detail {
+			width: 100%;
+			line-height: 1.8em;
+			font-size: 14/@r;
+		}
+	}
+	.rightSection {
+		width: 100%;
+		margin-top: 30/@r;
+		ul {
+			width: 100%;
+			li {
+				width: 100%;
+				.title {
+					width: 100%;
+					line-height: 1.8em;
+					font-size: 16/@r;
+				}
+				.detail {
+					width: 100%;
+					height: 40/@r;
+					text-indent: 1em;
+					background-color: #e0e0e0;
+					&.active {
+						background-color: rgb(210, 140, 140);
+					}
+				}
+			}
+		}
+		.checked {
+			width: 100%;
+			padding-left: 20/@r;
+			box-sizing: border-box;
+			background: url(../img/dot.png) no-repeat;
+			background-size: 12/@r 12/@r;
+			height: 12/@r;
+			line-height: 12/@r;
+			font-size: 12/@r;
+			margin: 20/@r 0 40/@r;
+			&.active {
+				background: url(../img/dotChecked.png) no-repeat;
+				background-size: 12/@r 12/@r;
+			}
+		}
+		.btn {
+			width: 100%;
+			height: 50/@r;
+			line-height: 50/@r;
+			font-size: 14/@r;
+			color: #fff;
+			background-color: #000;
+			text-align: center;
+		}
+	}
+	.botNav {
+		width: 100%;
+		margin-top: 50/@r;
+		li {
+			width: 100%;
+			border-bottom: 1/@r solid #ccc;
+			position: relative;
+			&:last-child {
+				border-bottom: none;
+			}
+			a {
+				display: block;
+				height: 50/@r;
+				line-height: 50/@r;
+				width: 100%;
+				color: #999;
+				font-size: 14/@r;
+			}
+			span {
+				position: absolute;
+				width: 15/@r;
+				height: 7/@r;
+				background: url(../img/rightArrow.png) no-repeat;
+				background-size: 15/@r 7/@r;
+				top: 21/@r;
+				right: 10/@r;
+			}
+		}
+	}
+}

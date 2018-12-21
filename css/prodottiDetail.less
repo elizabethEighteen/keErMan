@@ -29,31 +29,60 @@ body {
 	.banner {
 		width: 96%;
 		margin: 0 auto;
-		position: relative;
 		.image {
 			width: 80%;
 			max-width: 1000px;
 			margin: 0 auto;
-			img {
+			position: relative;
+			 overflow: hidden;
+			 .mask {
+			 	width: 100%;
+			 	 position: relative;
+			 	img {
+			 		width: 100%;
+			 	}
+			 	.white {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+
+			 	}
+			 }
+			.img {
 				width: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				// z-index: 50;
+				// &:nth-of-type(1) {
+				// 	position: static;
+				// 	background: #fff;
+				// 	// z-index: 1000;
+				// }
+
 			}
 			
 		}
 		.leftArrow {
-			width: 17px;
+			// display: block;
+			width: 51px;
 			height: 56px;
 			background: url(../img/icon_slide_left.png) no-repeat;
 			background-size: 17px 56px;
+			background-position: center 0;
 			position: absolute;
 			top: 50%;
 			left: 2%;
 			transform: translateY(-50%);
 		}
 		.rightArrow {
-			width: 17px;
+			width: 51px;
 			height: 56px;
 			background: url(../img/icon_slide_right.png) no-repeat;
 			background-size: 17px 56px;
+			background-position: center 0;
 			position: absolute;
 			top: 50%;
 			right: 2%;
@@ -118,7 +147,7 @@ body {
 				width: 34px;
 				height: 30px;
 				float: left;
-				background: url(../img/icon_location.png) no-repeat;
+				background: url(../img/icon__location1.png) no-repeat;
 				background-size: 34px 30px;
 			}
 		}

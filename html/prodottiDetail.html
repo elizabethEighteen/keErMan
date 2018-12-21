@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta name="HandheldFriendly" content="true">
 	<title></title>
-	<link rel="stylesheet" href="../css/prodottiDetail.css">
+	<link rel="stylesheet" href="../css/prodottiDetail.css" media="screen and (min-width:768px)">
+	<link rel="stylesheet" href="../mCss/m-prodottiDetail.css" media="screen and (max-width:768px)">
 	<script src="../js/jquery-1.11.0.min.js"></script>
 	<script src="../js/procdottiDetail.js"></script>
 </head>
@@ -16,7 +17,13 @@
 	</div>
 	<div id="contennt" class="clearfix">
 		<div class="banner">
-			<div class="image"><img src="../img/img_pic5.png" alt=""></div>
+			<div class="image">
+				<div class="mask m-hide">
+				</div>
+				<!-- <img class="active" src="../images/1.jpg" alt="">
+				<img src="../images/2.jpg" alt="">
+				<img src="../images/3.jpg" alt=""> -->
+			</div>
 			<div class="leftArrow"></div>
 			<div class="rightArrow"></div>
 		</div>

@@ -6,19 +6,20 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta name="HandheldFriendly" content="true">
 	<title></title>
-	<link rel="stylesheet" href="../css/loginRegister.css">
+	<link rel="stylesheet" href="../css/loginRegister.css" media="screen and (min-width:768px)">
+	<link rel="stylesheet" href="../mCss/m-loginRegisterti.css" media="screen and (max-width:768px)">
 	<script src="../js/jquery-1.11.0.min.js"></script>
-	<script src="../js/login.js"></script>
+	<script src="../js/login-REgisterti.js"></script>
 </head>
 <body>
 	<div id="nav">
-		<p><a href="javascript:">HOME </a>/ LOGIN</p>
+		<p><a href="javascript:">HOME </a>/ REGISTRAZIONE ACCOUNT</p>
 	</div>
 	<div id="contennt" class="clearfix">
 		<div class="leftNav left">
 			<h1 class="title">PRESS LOGIN AREA</h1>
 			<p class="detail">Per accedere a questi contenuti devi essere un utente registrato e loggarti al sito inserendo e-mail e password in tuo possesso.</p>
-			<ul>
+			<ul class="m-hide">
 				<li><a href="../html/login.html">LOGIN</a><span></span></li>
 				<li><a href="../html/loginRePassword.html">RECUPERA LA PASSWORD</a><span></span></li>
 				<li><a href="../html/loginReGisterti.html">REGISTRATI ORA</a><span></span></li>
@@ -63,7 +64,7 @@
 					<select name="" id=""></select>
 				</li>
 				<li>
-					<div class="title">* NAZIONE</div>
+					<div class="title">* RAGIONE</div>
 					<select name="" id=""></select>
 				</li>
 				<li>
@@ -92,6 +93,10 @@
 				<div class="btn1 active">Sì</div>
 				<div class="btn2">No</div>
 			</div>
+			<select name="" id="language">
+				<option value="Italiano">Italiano</option>
+				<option value="Englese">Englese</option>
+			</select>
 			<ul class="ul2 clearfix">
 				<li>
 					<div class="title">* USERNAME (E-MAIL)</div>
@@ -110,6 +115,14 @@
 				<div class="btn">INVIA</div>
 			</div>
 		</div>
+		<ul class="pcHide botNav">
+			<li><a href="../html/login.html">LOGIN</a><span></span></li>
+			<li><a href="../html/loginRePassword.html">RECUPERA LA PASSWORD</a><span></span></li>
+			<li><a href="../html/loginReGisterti.html">REGISTRATI ORA</a><span></span></li>
+			<li><a href="javascript:">NEWSLETTER</a><span></span></li>
+			<li><a href="javascript:">AREA RISERVATA</a><span></span></li>
+			<li><a href="javascript:">CONFIGURATORE QUID</a><span></span></li>
+		</ul>
 	</div>
 	<script src="../js/comon.js"></script>
 </body>

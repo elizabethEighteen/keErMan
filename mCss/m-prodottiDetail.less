@@ -1,0 +1,95 @@
+@import "./m-common.less";
+
+#nav {
+	width: 100%;
+	height: 50/@r;
+	padding-left: 20/@r;
+	box-sizing: border-box;
+	p {
+		height: 50/@r;
+		line-height: 50/@r;
+		font-size: 12/@r;
+		a {
+			height: 50/@r;
+			line-height: 50/@r;
+			font-size: 12/@r;
+			color: #000;
+		}
+	}
+}
+#contennt {
+	width: 100%;
+	padding-bottom: 50/@r;
+	.banner {
+		width: 80%;
+		margin: 30/@r 10% 0;
+		.image {
+			width: 100%;
+			img {
+				width: 100%;
+			}
+		}
+	}
+	.extendImage {
+		width: 50/@r;
+		height: 20/@r;
+		margin: 10/@r auto;
+		.btn1 {
+			width: 20/@r;
+			height: 20/@r;
+			float: left;
+			background: url(../img/icon_details_more.png) no-repeat;
+			background-size: 20/@r 20/@r;
+		}
+		.btn2 {
+			width: 20/@r;
+			height: 20/@r;
+			float: right;
+			background: url(../img/icon_maxscreen.png) no-repeat;
+			background-size: 20/@r 20/@r;
+		}
+	}
+	.bot {
+		width: 90%;
+		margin-left: 5%;
+		h2 {
+			width: 100%;
+			line-height: 30/@r;
+			font-size: 28/@r;
+		}
+		.time {
+			width: 100%;
+			line-height: 20/@r;
+			font-size: 16/@r;
+		}
+		.detail {
+			margin-top: 20/@r;
+			width: 100%;
+			line-height: 1.6em;
+			font-size: 14/@r;
+		}
+	}
+	.btns {
+		width: 75/@r;
+		height: 30/@r;
+		margin-top: 20/@r;
+		.btn1 {
+			width: 34/@r;
+			height: 30/@r;
+			background: url(../img/icon_wish1.png) no-repeat;
+			background-size: 24/@r 30/@r;
+			float: left;
+			&.active {
+				background: url(../img/icon_wish2.png) no-repeat;
+				background-size: 24/@r 30/@r;
+			}
+		}
+		.btn2 {
+			width: 25/@r;
+			height: 30/@r;
+			background: url(../img/icon__location1.png) no-repeat;
+			background-size: 25/@r 30/@r;
+			float: left;
+		}
+	}
+}

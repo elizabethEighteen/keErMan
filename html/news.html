@@ -6,9 +6,10 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
 	<meta name="HandheldFriendly" content="true">
 	<title></title>
-	<link rel="stylesheet" href="../css/news.css">
+	<link rel="stylesheet" href="../css/news.css" media="screen and (min-width:768px)">
+	<link rel="stylesheet" href="../mCss/m-news.css" media="screen and (max-width:768px)">
 	<script src="../js/jquery-1.11.0.min.js"></script>
-	<!-- <script src="../js/chiSiamo.js"></script> -->
+	<script src="../js/news.js"></script>
 </head>
 <body>
 	<div id="nav">
@@ -16,7 +17,7 @@
 	</div>
 	<div id="contennt" class="clearfix">
 		<div class="leftNav left">
-			<p class="title">NEWS</p>
+			<p class="title">NEWS<span></span></p>
 			<ul>
 				<li><a class="active" href="../html/news.html">NEWS</a></li>
 				<li><a href="../html/newsCampagne.html">CAMPAGNE PUBBLICITARIE</a></li>
@@ -29,7 +30,23 @@
 			</select>
 		</div>
 		<div class="rightSection right">
-			<ul>
+			<div class="ulNav clearfix">
+				<div class="title left">DICONO DI NOI (163)</div>
+					<ul class="ul1 right mright clearfix">
+						<li class="active">1</li>
+						<li>2</li>
+						<li>3</li>
+						<li>4</li>
+						<li>5</li>
+						<li>6</li>
+						<li>7</li>
+						<li>8</li>
+						<li>9</li>
+						<li>10</li>
+						<li>11</li>
+					</ul>
+				</div>
+			<ul class="ul2">
 				<li class="clearfix">
 					<a href="javasript:">
 						<div class="leftSection left">
@@ -85,6 +102,21 @@
 					</a>
 				</li>
 			</ul>
+			<div class="botWrap clearfixed">
+				<ul class="ul3 right mright">
+					<li class="active">1</li>
+					<li>2</li>
+					<li>3</li>
+					<li>4</li>
+					<li>5</li>
+					<li>6</li>
+					<li>7</li>
+					<li>8</li>
+					<li>9</li>
+					<li>10</li>
+					<li>11</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<script src="../js/comon.js"></script>

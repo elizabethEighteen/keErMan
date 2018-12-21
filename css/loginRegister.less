@@ -60,6 +60,7 @@ body {
 					border-bottom: none;
 				}
 				a {
+					display: block;
 					line-height: 43px;
 					font-size: 14px;
 					color: #000;
@@ -108,11 +109,14 @@ body {
 					margin: 5px 0;
 				}
 				input {
+					display: block;
 					width: 100%;
 					height: 40px;
+					font-size: 14px;
 					background-color: #E0E0E0;
 				}
 				.warning {
+					display: none;
 					width: 100%;
 					line-height: 26px;
 					font-size: 12px;
@@ -120,8 +124,10 @@ body {
 					margin-bottom: 5px;
 				}
 				select {
+					display: block;
 					width: 100%;
 					height: 40px;
+					font-size: 14px;
 					background-color: #E0E0E0;
 					outline: none;
 				}
@@ -140,6 +146,7 @@ body {
 				width: 20px;
 				height: 16px;
 				line-height: 16px;
+				font-size: 16px;
 				padding-left: 24px;
 				background: url(../img/dot.png) no-repeat;
 				background-size: 14px 14px;
@@ -151,6 +158,15 @@ body {
 					background-position: 0 center;
 				}
 			}
+		}
+		#language {
+			display: block;
+			width: 40.5%;
+			height: 40px;
+			font-size: 14px;
+			background-color: #E0E0E0;
+			outline: none;
+			margin-bottom: 30px;
 		}
 		.ul2 {
 			width: 90%;
@@ -167,11 +183,13 @@ body {
 					margin: 5px 0;
 				}
 				input {
+					display: block;
 					width: 100%;
 					height: 40px;
 					background-color: #E0E0E0;
 				}
 				.warning {
+					display: none;
 					width: 100%;
 					line-height: 26px;
 					font-size: 12px;
@@ -187,8 +205,18 @@ body {
 				float: left;
 				line-height: 1.4em;
 				font-size: 14px;
+				background: url(../img/dot.png) no-repeat;
+				background-size: 12px 12px;
+				background-position: 0 4px;
+				text-indent: 2em;
+				&.active {
+					background: url(../img/dotChecked.png) no-repeat;
+					background-size: 12px 12px;
+					background-position: 0 4px;
+				}
 			}
 			.acceptWarning {
+				display: none;
 				width: calc(100% - 220px);
 				float: left;
 				line-height: 1.4em;
