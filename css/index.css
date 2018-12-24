@@ -224,6 +224,7 @@ header .nav li a {
   position: relative;
 }
 #content .conWrap .con .style2 img {
+  display: block;
   width: 100%;
   margin: 60px 0;
 }
@@ -233,9 +234,8 @@ header .nav li a {
   padding-bottom: 80px;
   position: absolute;
   left: 0;
-  bottom: 63px;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  transform: translateY(-12px);
 }
 #content .conWrap .con .style2 .sWrap .title {
   width: 90%;
